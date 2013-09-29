@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>ToDo Lists</h2>
+
+<ul data-ng-controller="TodoCtrl">
+    <li data-ng-repeat="list in lists">{{ list.title }}</li>
+</ul>
+
